@@ -20,15 +20,15 @@ export default function Blog() {
                 <br />
                 <br />
                 All Posts:
-                <ul>
+                <div className="grid">
                     {posts.map(post => (
-                        <li key={post.data.title}>
+                        <div key={post.data.title} className="grid__cell">
                             <Link to={`/work/${post.data.slug}/`}>
                                 {post.data.title}
                             </Link>
-                        </li>
+                        </div>
                     ))}
-                </ul>
+                </div>
                 <br />
                 <br />
                 <div>
