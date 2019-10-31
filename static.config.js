@@ -115,7 +115,6 @@ export default {
                             name="viewport"
                             content="width=device-width, initial-scale=1"
                         />
-
                         <link
                             href="https://fonts.googleapis.com/css?family=Jura:300,500&display=swap"
                             rel="preload"
