@@ -16,15 +16,20 @@ export default function Blog() {
                         Scroll to bottom!
                     </a>
                 </div>
-                <br />
-                <br />
-                <br />
-                All Posts:
-                <div className="grid">
+                <div className="tiles-grid">
                     {posts.map(post => (
                         <div key={post.data.title} className="grid__cell">
                             <Link to={`/work/${post.data.slug}/`}>
-                                {post.data.title}
+                                <div
+                                    className="tile"
+                                    style={{
+                                        backgroundImage: `./public/media/${post.data.image}`,
+                                    }}
+                                >
+                                    <div className="tile__title">
+                                        {post.data.title}
+                                    </div>
+                                </div>
                             </Link>
                         </div>
                     ))}
