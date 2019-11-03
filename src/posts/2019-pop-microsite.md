@@ -3,7 +3,8 @@ id: 2
 visible: true
 title: Pop Microsite
 date: 2019
-tags: ['MPA', 'CI', 'Netlify', 'React', 'CRA', 'Js', 'ES6', 'Sass', 'BEM']
+type: 'website'
+tech: ['MPA', 'CI', 'Netlify', 'React', 'CRA', 'Js', 'ES6', 'Sass', 'BEM']
 ---
 
 [pissoffperiods](https://pissoffperiods.netlify.com/)

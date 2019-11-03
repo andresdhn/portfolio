@@ -22,6 +22,14 @@ export default function Post() {
                     {post.data.date} - {post.data.title}
                 </h3>
                 <Markdown source={post.content} escapeHtml={false} />
+
+                <ul className="techlist">
+                    {post.data.tags.map((tag, index) => (
+                        <li key={index} className="tech">
+                            {tag}
+                        </li>
+                    ))}
+                </ul>
             </div>
         </Page>
     )

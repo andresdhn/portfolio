@@ -3,7 +3,8 @@ id: 6
 visible: true
 title: Vote Bravo 2017
 date: 2017
-tags:
+type: 'website'
+tech:
     [
         'SPA',
         'HTML',

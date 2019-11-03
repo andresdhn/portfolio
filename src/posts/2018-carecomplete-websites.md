@@ -3,7 +3,8 @@ id: 5
 visible: true
 title: Carecomplete websites
 date: 2018
-tags: ['CMS', 'WordPress', 'PHP', 'MYSQL', 'HTML', 'CSS', 'Js']
+type: 'website'
+tech: ['CMS', 'WordPress', 'PHP', 'MYSQL', 'HTML', 'CSS', 'Js']
 ---
 
 [carecomplete.com.au](https://carecomplete.com.au)

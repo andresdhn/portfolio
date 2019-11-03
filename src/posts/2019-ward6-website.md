@@ -3,7 +3,8 @@ id: 1
 visible: true
 title: Ward6 website 2019
 date: 2019
-tags:
+type: 'website'
+tech:
     [
         'MPA',
         'CI',

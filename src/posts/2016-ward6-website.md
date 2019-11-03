@@ -3,7 +3,8 @@ id: 11
 visible: true
 title: Ward6 website 2016
 date: 2016
-tags:
+type: 'website'
+tech:
     [
         'HTML',
         'Sass',

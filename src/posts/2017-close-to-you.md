@@ -3,7 +3,8 @@ id: 7
 visible: true
 title: Close to you RestAPI
 date: 2017
-tags: ['Js', 'API', 'HTML', 'CSS']
+type: 'API'
+tech: ['Js', 'API', 'HTML', 'CSS']
 ---
 
 [Close-to-you](https://www.dementiadaily.org.au/close-to-you/)

@@ -3,7 +3,8 @@ id: 8
 visible: true
 title: New Frontiers meeting
 date: 2017
-tags: ['HTML', 'Js', 'Sass', 'Bootstrap', 'Gulp', 'Panini']
+type: 'website'
+tech: ['HTML', 'Js', 'Sass', 'Bootstrap', 'Gulp', 'Panini']
 ---
 
 [newfrontiersmeeting.com.au](https://newfrontiersmeeting.com.au)

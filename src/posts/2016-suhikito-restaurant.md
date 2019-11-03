@@ -3,7 +3,8 @@ id: 10
 visible: true
 title: Suhi'kito Restaurant
 date: 2016
-tags:
+type: 'website'
+tech:
     [
         'SPA',
         'HTML',

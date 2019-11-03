@@ -3,7 +3,8 @@ id: 12
 visible: true
 title: 66South website
 date: 2016
-tags: ['HTML', 'CSS']
+type: 'website'
+tech: ['HTML', 'CSS']
 ---
 
 [66south.com.au](https://66south.com.au)
