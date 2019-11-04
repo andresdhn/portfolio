@@ -4,7 +4,8 @@ visible: true
 title: Suhi'kito Restaurant
 date: 2016
 type: 'website'
-tech:
+link: 'https://andresdhn.github.io/sushikito/'
+techlist:
     [
         'SPA',
         'HTML',
@@ -19,7 +20,5 @@ tech:
         'BEM',
     ]
 ---
-
-[suhikito.fr](https://andresdhn.github.io/sushikito/)
 
 Mobile First Single page Website bootstrapped with Create-react-App for Suhi'kito restaurant in Nantes, France.

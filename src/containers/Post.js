@@ -21,15 +21,27 @@ export default function Post() {
                 <h3>
                     {post.data.date} - {post.data.title}
                 </h3>
+
                 <Markdown source={post.content} escapeHtml={false} />
 
                 <ul className="techlist">
-                    {post.data.tags.map((tag, index) => (
+                    {post.data.techlist.map((tech, index) => (
                         <li key={index} className="tech">
-                            {tag}
+                            {tech}
                         </li>
                     ))}
                 </ul>
+
+                <p>
+                    To check out the project please
+                    <a
+                        href={post.data.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        click here
+                    </a>
+                </p>
             </div>
         </Page>
     )

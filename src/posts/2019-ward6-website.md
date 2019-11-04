@@ -4,7 +4,8 @@ visible: true
 title: Ward6 website 2019
 date: 2019
 type: 'website'
-tech:
+link: 'https://www.ward6.com.au'
+techlist:
     [
         'MPA',
         'CI',
@@ -21,8 +22,6 @@ tech:
         'BEM',
     ]
 ---
-
-[https://www.ward6.com.au](https://www.ward6.com.au)
 
 Mobile first Static Site SEO performant, uses Continuous Integration with Netlify / Github.
 

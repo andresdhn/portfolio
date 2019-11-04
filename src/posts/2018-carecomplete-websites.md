@@ -4,10 +4,9 @@ visible: true
 title: Carecomplete websites
 date: 2018
 type: 'website'
-tech: ['CMS', 'WordPress', 'PHP', 'MYSQL', 'HTML', 'CSS', 'Js']
+link: 'https://carecomplete.com.au'
+techlist: ['CMS', 'WordPress', 'PHP', 'MYSQL', 'HTML', 'CSS', 'Js']
 ---
-
-[carecomplete.com.au](https://carecomplete.com.au)
 
 [carefirstprogram.com.au](https://carefirstprogram.com.au)
 

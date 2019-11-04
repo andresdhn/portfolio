@@ -4,9 +4,8 @@ visible: true
 title: Create 2 Grow
 date: 2016
 type: 'website'
-tech: ['HTML', 'Bootstrap', 'CSS']
+link: 'http://andresdhn.github.io/create-2-grow/'
+techlist: ['HTML', 'Bootstrap', 'CSS']
 ---
-
-[create2grow.com.au](http://andresdhn.github.io/create-2-grow/)
 
 Create to grow responsive website
