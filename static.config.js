@@ -125,7 +125,7 @@ export default {
                             rel="stylesheet"
                         />
 
-                        <title>Portfolio</title>
+                        <title>Portfolio | @andresdhn</title>
                     </Head>
                     <Body>{children}</Body>
                 </Html>

@@ -5,7 +5,7 @@ import { Head } from 'react-static'
 export default ({ title, date, path, image, children, description }) => {
     return (
         <Head>
-            {title && <title>{title}</title>}
+            {title && <title>{title + '| @andresdhn'}</title>}
             {title && <meta name="title" property="title" content={title} />}
             {description && (
                 <meta
