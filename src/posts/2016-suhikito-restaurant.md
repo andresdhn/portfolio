@@ -1,7 +1,7 @@
 ---
 id: 10
 visible: true
-title: Suhi'kito Restaurant
+title: Suhikito Restaurant
 date: 2016
 type: 'website'
 link: 'https://andresdhn.github.io/sushikito/'

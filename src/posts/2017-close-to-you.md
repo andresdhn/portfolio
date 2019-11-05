@@ -1,7 +1,7 @@
 ---
 id: 7
 visible: true
-title: Close to you RestAPI
+title: Close to you
 date: 2017
 type: 'API'
 link: 'https://www.dementiadaily.org.au/close-to-you/'

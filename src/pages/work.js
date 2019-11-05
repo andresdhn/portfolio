@@ -9,6 +9,7 @@ export default function Blog() {
     const { posts } = useRouteData()
     return (
         <Page>
+            <Head title="Work | @andresdhn" />
             <div className="container">
                 <h1>It's blog time.</h1>
                 <div>
@@ -18,12 +19,12 @@ export default function Blog() {
                 </div>
                 <div className="tiles-grid">
                     {posts.map(post => (
-                        <div key={post.data.title} className="grid__cell">
+                        <div key={post.data.id} className="grid__cell">
                             <Link to={`/work/${post.data.slug}/`}>
                                 <div
                                     className="tile"
                                     style={{
-                                        backgroundImage: `./public/media/${post.data.image}`,
+                                        backgroundImage: `url(/media/work/thumb-${post.data.date}-${post.data.slug}.png)`,
                                     }}
                                 >
                                     <div className="tile__title">

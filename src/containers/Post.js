@@ -33,13 +33,13 @@ export default function Post() {
                 </ul>
 
                 <p>
-                    To check out the project please
+                    Have a look at the actual project by&nbsp;
                     <a
                         href={post.data.link}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        click here
+                        clicking here
                     </a>
                 </p>
             </div>

@@ -1,7 +1,7 @@
 ---
 id: 6
 visible: true
-title: Vote Bravo 2017
+title: Vote Bravo
 date: 2017
 type: 'website'
 link: 'https://andresdhn.github.io/votebravo2017/'

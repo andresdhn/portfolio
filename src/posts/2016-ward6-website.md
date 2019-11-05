@@ -1,7 +1,7 @@
 ---
 id: 11
 visible: true
-title: Ward6 website 2016
+title: Ward6 website
 date: 2016
 type: 'website'
 link: 'http://w6digital.com.au/clients/ward6/ward6.com.au_2018/index.html'
