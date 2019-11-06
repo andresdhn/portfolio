@@ -1,14 +1,39 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Link } from 'components/Router'
+//
+export default class Navbar extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            open: false,
+        }
+    }
 
-export default () => (
-    <div className="navbar">
-        <div className="container">
-            <nav>
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/work">Work</Link>
-            </nav>
-        </div>
-    </div>
-)
+    handleClick = () => {
+        this.setState({ open: this.state.open ? false : true })
+    }
+
+    render() {
+        return (
+            <div className={`navbar ${this.state.open ? 'open' : ''}`}>
+                <div
+                    className="navbar__toggle"
+                    onClick={this.handleClick}
+                ></div>
+                <nav>
+                    <div className="container">
+                        <Link onClick={this.handleClick} to="/">
+                            Home
+                        </Link>
+                        <Link onClick={this.handleClick} to="/about">
+                            About
+                        </Link>
+                        <Link onClick={this.handleClick} to="/work">
+                            Work
+                        </Link>
+                    </div>
+                </nav>
+            </div>
+        )
+    }
+}

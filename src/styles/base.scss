@@ -5,7 +5,7 @@
 body {
     font-family: 'Jura', Arial, sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: $font-size-4;
     margin: 0;
     padding: 0;
     color: $color-text;
@@ -13,6 +13,10 @@ body {
 
 img {
     max-width: 100%;
+}
+
+.wrapper {
+    padding-top: $nav-height;
 }
 
 .container {

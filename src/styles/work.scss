@@ -6,7 +6,7 @@
     max-width: 1024px;
     margin: 0 auto;
 
-    @media screen and (min-width: $xs) {
+    @media screen and (min-width: $sm) {
         grid-template-columns: repeat(2, minmax(200px, 1fr));
     }
 }

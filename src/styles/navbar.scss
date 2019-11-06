@@ -1,14 +1,100 @@
-.navbar{
+.navbar {
+    position: fixed;
+    top: 0;
     width: 100%;
-    background: #108db8;
+    height: $nav-height;
+    background-color: #108db8;
+    z-index: 99;
+    transition: height 0.3s ease;
+
+    @media screen and (max-width: $sm) {
+        &.open {
+            height: 100vh;
+
+            nav {
+                visibility: visible;
+            }
+        }
+    }
+}
+
+.navbar__toggle {
+    position: absolute;
+    display: block;
+    right: 7%;
+    top: 35px;
+    width: 40px;
+    height: 10px;
+    overflow: hidden;
+
+    transition: all 0.2s ease;
+    cursor: pointer;
+    z-index: 99;
+
+    &:after,
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 80px;
+        height: 4px;
+        background-color: $color-white;
+        background: linear-gradient(
+            90deg,
+            $color-white 0,
+            $color-white 33.33%,
+            transparent 0,
+            transparent 66.66%,
+            $color-white 0,
+            $color-white
+        );
+        background-size: 300%;
+        background-position: 100%;
+        transition: background-position 1s ease;
+    }
+
+    &:before {
+        top: 0;
+    }
+
+    &:after {
+        bottom: 0;
+        transition-delay: 0.2s;
+    }
+
+    &:hover {
+        &:before,
+        &:after {
+            background-position: 0;
+        }
+    }
+
+    @media screen and (min-width: $sm) {
+        display: none;
+    }
 }
 
 nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     width: 100%;
+    visibility: hidden;
+
+    @media screen and (min-width: $sm) {
+        visibility: visible;
+    }
 }
 
 nav a {
-    color: $color-white;
+    display: block;
     padding: 1rem;
-    display: inline-block;
+    font-size: $font-size-1;
+    color: $color-white;
+
+    @media screen and (min-width: $sm) {
+        padding: 0 1rem;
+        font-size: $font-size-4;
+        display: inline-block;
+    }
 }

@@ -1,8 +1,15 @@
-// settings
+// Color settings
 $color-gray: #585858;
 $color-black: #000000;
 $color-white: #ffffff;
-
 $color-text: $color-gray;
 
-$xs: 600px;
+// Gral variables
+$nav-height: 70px;
+
+// Breakpoint
+$sm: 600px;
+
+// Typography settings
+$font-size-1: calc(18px + 2vh);
+$font-size-4: 16px;
