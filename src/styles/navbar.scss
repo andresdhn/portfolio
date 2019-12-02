@@ -3,9 +3,13 @@
     top: 0;
     width: 100%;
     height: $nav-height;
-    background-color: #108db8;
+    background-color: $color-white;
     z-index: 99;
     transition: height 0.3s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     @media screen and (max-width: $sm) {
         &.open {
@@ -23,8 +27,8 @@
     display: block;
     right: 7%;
     top: 35px;
-    width: 40px;
-    height: 10px;
+    width: 30px;
+    height: 8px;
     overflow: hidden;
 
     transition: all 0.2s ease;
@@ -37,16 +41,16 @@
         position: absolute;
         left: 0;
         width: 80px;
-        height: 4px;
-        background-color: $color-white;
+        height: 2px;
+        background-color: $color-red;
         background: linear-gradient(
             90deg,
-            $color-white 0,
-            $color-white 33.33%,
+            $color-red 0,
+            $color-red 33.33%,
             transparent 0,
             transparent 66.66%,
-            $color-white 0,
-            $color-white
+            $color-red 0,
+            $color-red
         );
         background-size: 300%;
         background-position: 100%;
@@ -75,26 +79,30 @@
 }
 
 nav {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
+    min-width: 700px;
+    text-align: center;
     visibility: hidden;
 
     @media screen and (min-width: $sm) {
         visibility: visible;
     }
-}
 
-nav a {
-    display: block;
-    padding: 1rem;
-    font-size: $font-size-1;
-    color: $color-white;
+    a {
+        display: block;
+        padding: 1rem;
+        font-size: $font-size-3;
+        color: $color-black70;
 
-    @media screen and (min-width: $sm) {
-        padding: 0 1rem;
-        font-size: $font-size-4;
-        display: inline-block;
+        &:active,
+        &:visited,
+        &:focus {
+            color: $color-black70;
+        }
+
+        @media screen and (min-width: $sm) {
+            padding: 0 1rem;
+            font-size: 1em;
+            display: inline-block;
+        }
     }
 }
