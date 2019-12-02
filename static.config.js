@@ -22,10 +22,13 @@ const getPosts = fileDir => {
                             // Convert to frontmatter object and markdown content //
                             const dataObj = matter(data)
                             // Create slug for URL //
-                            dataObj.data.slug = dataObj.data.title
-                                .toLowerCase()
-                                .replace(/ /g, '-')
-                                .replace(/[^\w-]+/g, '')
+                            dataObj.data.slug =
+                                dataObj.data.date +
+                                '-' +
+                                dataObj.data.title
+                                    .toLowerCase()
+                                    .replace(/ /g, '-')
+                                    .replace(/[^\w-]+/g, '')
                             // Remove unused key //
                             delete dataObj.orig
                             // Push object into items array //
