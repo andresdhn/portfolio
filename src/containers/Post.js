@@ -17,31 +17,33 @@ export default function Post() {
             />
             <div className="container">
                 <Link to="/work/">{'<'} Back</Link>
-                <br />
-                <h3>
-                    {post.data.date} - {post.data.title}
-                </h3>
+                <div className="post-body">
+                    <h1>
+                        {post.data.date} - {post.data.title}
+                    </h1>
 
-                <Markdown source={post.content} escapeHtml={false} />
+                    <Markdown source={post.content} escapeHtml={false} />
 
-                <ul className="techlist">
-                    {post.data.techlist.map((tech, index) => (
-                        <li key={index} className="tech">
-                            {tech}
-                        </li>
-                    ))}
-                </ul>
+                    {/* TODO: Change techlist style something more subtle */}
+                    <ul className="techlist">
+                        {post.data.techlist.map((tech, index) => (
+                            <li key={index} className="tech">
+                                {tech}
+                            </li>
+                        ))}
+                    </ul>
 
-                <p>
-                    Have a look at the actual project by&nbsp;
-                    <a
-                        href={post.data.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        clicking here
-                    </a>
-                </p>
+                    <p>
+                        Have a look at the actual project by&nbsp;
+                        <a
+                            href={post.data.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            clicking here
+                        </a>
+                    </p>
+                </div>
             </div>
         </Page>
     )
