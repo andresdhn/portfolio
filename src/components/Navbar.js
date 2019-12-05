@@ -16,15 +16,15 @@ export default class Navbar extends Component {
     render() {
         return (
             <div className={`navbar ${this.state.open ? 'open' : ''}`}>
+                <Link className="navbar__brand" to="/">
+                    @andresdhn
+                </Link>
                 <div
                     className="navbar__toggle"
                     onClick={this.handleClick}
                 ></div>
                 <nav>
                     <div className="container">
-                        <Link onClick={this.handleClick} to="/">
-                            Home
-                        </Link>
                         <Link onClick={this.handleClick} to="/about">
                             About
                         </Link>
