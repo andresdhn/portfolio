@@ -1,0 +1,7 @@
+@import 'src/index.scss';
+//
+.wrapper {
+    padding-top: $nav-height;
+    background-color: $color-black70;
+    min-height: 100vh;
+}

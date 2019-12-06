@@ -85,7 +85,7 @@ export default {
                 }),
                 children: posts.map(post => ({
                     path: `/${post.data.slug}`,
-                    template: 'src/containers/Post',
+                    template: 'src/pages/post',
                     getData: () => ({
                         post,
                     }),

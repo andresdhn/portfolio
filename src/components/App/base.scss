@@ -1,3 +1,5 @@
+@import 'src/index.scss';
+
 * {
     scroll-behavior: smooth;
     margin: 0;
@@ -18,10 +20,8 @@ img {
     max-width: 100%;
 }
 
-.wrapper {
-    padding-top: $nav-height;
-    background-color: $color-black70;
-    min-height: 100vh;
+section {
+    padding: 3rem 0;
 }
 
 .container {

@@ -1,0 +1,17 @@
+#projects {
+    &:nth-child(odd) {
+        .project__cell:first-child {
+            order: 2;
+        }
+
+        .project__cell:last-child {
+            order: 1;
+        }
+    }
+
+    .project__container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+}

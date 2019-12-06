@@ -3,10 +3,11 @@ import { useRouteData } from 'react-static'
 import Markdown from 'react-markdown'
 //
 import { Link } from 'components/Router'
-import Page from 'components/Page'
-import Head from 'components/Head'
+import Page from 'components/Page/Page'
+import Head from 'components/Head/Head'
+import './post.scss'
 //
-export default function Post() {
+export default () => {
     const { post } = useRouteData()
     return (
         <Page>
