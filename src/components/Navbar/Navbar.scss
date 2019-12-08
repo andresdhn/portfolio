@@ -8,10 +8,6 @@
     background-color: $color-white;
     z-index: 99;
     transition: height 0.3s ease;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: $color-black70;
 
     @media screen and (max-width: $sm) {
@@ -22,6 +18,10 @@
                 visibility: visible;
             }
         }
+    }
+
+    .container {
+        height: 100%;
     }
 }
 
@@ -90,7 +90,10 @@
 }
 
 nav {
-    min-width: 700px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
     text-align: right;
     visibility: hidden;
 
