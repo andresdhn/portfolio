@@ -22,6 +22,14 @@ img {
 
 section {
     padding: 3rem 0;
+
+    &.hero {
+        height: 40vh;
+        max-height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .container {

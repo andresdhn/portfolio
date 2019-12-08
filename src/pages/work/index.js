@@ -7,22 +7,24 @@ export default () => {
     return (
         <Page>
             <Head title="andresdhn | Work" />
-            <div className="container">
-                <h2 className="text--center strong">
-                    Check out the projects <br />
-                    I've been working on recently
-                </h2>
-
-                <Projects />
-                <br />
-                <br />
-                <div>
-                    <a href="#top" id="bottom">
-                        {/* TODO: Turn into icon show on scroll 1000px*/}
-                        Scroll to top!
-                    </a>
+            <section className="hero">
+                <div className="container">
+                    <h1 className="text--center strong">
+                        Check out my latest projects
+                    </h1>
                 </div>
-            </div>
+            </section>
+            <section className="content">
+                <div className="container">
+                    <Projects />
+                    <div>
+                        <a href="#top" id="bottom">
+                            {/* TODO: Turn into icon show on scroll 1000px*/}
+                            Scroll to top!
+                        </a>
+                    </div>
+                </div>
+            </section>
         </Page>
     )
 }
