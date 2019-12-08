@@ -1,9 +1,10 @@
-#projects {
+@import 'src/index.scss';
+
+.project {
     &:nth-child(odd) {
         .project__cell:first-child {
             order: 2;
         }
-
         .project__cell:last-child {
             order: 1;
         }
@@ -11,7 +12,20 @@
 
     .project__container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        @media screen and (min-width: $sm) {
+            flex-direction: row;
+        }
+    }
+
+    .project__cell {
         width: 100%;
+        @media screen and (min-width: $sm) {
+            max-width: 50%;
+        }
+    }
+
+    .tile {
+        height: 250px;
     }
 }
