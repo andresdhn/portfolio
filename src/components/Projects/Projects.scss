@@ -3,7 +3,9 @@
 .project {
     &:nth-child(odd) {
         .project__cell:first-child {
-            order: 2;
+            @media screen and (min-width: $sm) {
+                order: 2;
+            }
         }
         .project__cell:last-child {
             order: 1;
@@ -13,6 +15,7 @@
     .project__container {
         display: flex;
         flex-direction: column;
+
         @media screen and (min-width: $sm) {
             flex-direction: row;
         }
@@ -20,12 +23,25 @@
 
     .project__cell {
         width: 100%;
+        margin: 5% 0;
+        overflow: hidden;
+
         @media screen and (min-width: $sm) {
             max-width: 50%;
         }
-    }
 
-    .tile {
-        height: 250px;
+        &--text {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+    }
+}
+
+.tile {
+    height: 250px;
+    transition: all 0.2s ease;
+    &:hover {
+        transform: scale(1.1);
     }
 }

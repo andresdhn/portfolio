@@ -4,6 +4,13 @@ import Page from 'components/Page/Page'
 
 export default () => (
     <Page>
-        <h1 style={{ textAlign: 'center' }}>Welcome to React-Static</h1>
+        <div className="container">
+            <section className="hero">
+                <div>
+                    <h1>Andres Hernandez Navas</h1>
+                    <h2>Front-end Developer</h2>
+                </div>
+            </section>
+        </div>
     </Page>
 )

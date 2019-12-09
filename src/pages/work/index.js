@@ -10,7 +10,7 @@ export default () => {
             <section className="hero">
                 <div className="container">
                     <h1 className="text--center strong">
-                        Check out my latest projects
+                        Check out some of my recent work
                     </h1>
                 </div>
             </section>
