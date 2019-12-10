@@ -5,10 +5,10 @@
     top: 0;
     width: 100%;
     height: $nav-height;
-    background-color: $color-white;
+    background-color: $color-black;
     z-index: 99;
     transition: height 0.3s ease;
-    color: $color-black70;
+    color: $color-white;
 
     @media screen and (max-width: $sm) {
         &.open {
@@ -110,7 +110,7 @@ nav {
         &:active,
         &:visited,
         &:focus {
-            color: $color-black70;
+            color: $color-white;
         }
 
         @media screen and (min-width: $sm) {

@@ -27,8 +27,8 @@ export default class Navbar extends Component {
                 ></div>
                 <nav>
                     <div className="container">
-                        <Link onClick={this.handleClick} to="/about">
-                            About
+                        <Link onClick={this.handleClick} to="/skills">
+                            Skills
                         </Link>
                         <Link onClick={this.handleClick} to="/work">
                             Work
