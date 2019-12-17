@@ -8,7 +8,7 @@ Websites
 
 [https://www.ward6.com.au](https://www.ward6.com.au)
 
-Mobile first Multiple page App, using Netlify / Github Continuous Integration, created in a SSG for SEO. This Media rich website uses Cloudinary for hosting and optimising all media files through their API and CDN. Also NetlifyCMS for content updates.
+Mobile first Multiple page App, using Netlify / Github Continuous Deployment, created in a SSG for SEO. This Media rich website uses Cloudinary for hosting and optimising all media files through their API and CDN. Also NetlifyCMS for content updates.
 
 `MPA` `CI` `Netlify` `NetlifyCMS` `Cloudinary` `API` `React` `React-static` `SSG` `Js` `ES6` `Sass` `BEM`
 

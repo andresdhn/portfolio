@@ -23,8 +23,8 @@ techlist:
     ]
 ---
 
-Mobile first Static Site SEO performant, uses Continuous Integration with Netlify / Github.
+Mobile first Static Site SEO performant, uses Continuous Deployment pipeline with Netlify / Github.
 
 This Media rich website uses [Cloudinary](https://cloudinary.com) for CDN hosting and API for optimising all media files on-the-fly.
 
-Integrated with Netlify CMS for content updates.
+Integrated with the headless CMS NetlifyCMS for content updates.
