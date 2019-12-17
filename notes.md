@@ -11,3 +11,8 @@ http://w6digital.com.au/clients/boehringer-ingelheim/spiriva/banners/Tower_Gold-
 http://w6digital.com.au/clients/boehringer-ingelheim/spiriva/banners/Tower_StandAlone_300x600/index.html
 http://w6digital.com.au/clients/Perrigo/Nicotinell/programmatic_320x50/programmatic_320x50.html
 http://w6digital.com.au/clients/Perrigo/Nicotinell/programmatic_320x250/programatic_320x250.html
+
+
+Reference sites:
+https://sidlee.com/
+http://riccardozanutta.com/
