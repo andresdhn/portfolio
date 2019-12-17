@@ -1,29 +1,29 @@
 // Imports
-import plugin0 from '/Users/andresdhn/Documents/work/portfolio/node_modules/react-static-plugin-reach-router/browser.api.js'
+import plugin0 from '/Users/andres/Documents/Other/my-static-site/node_modules/react-static-plugin-reach-router/browser.api.js'
 
 // Plugins
 const plugins = [{
-        location: "/Users/andresdhn/Documents/work/portfolio/node_modules/react-static-plugin-source-filesystem",
+        location: "/Users/andres/Documents/Other/my-static-site/node_modules/react-static-plugin-source-filesystem",
         plugins: [],
         hooks: {}
       },
 {
-        location: "/Users/andresdhn/Documents/work/portfolio/node_modules/react-static-plugin-reach-router",
+        location: "/Users/andres/Documents/Other/my-static-site/node_modules/react-static-plugin-reach-router",
         plugins: [],
         hooks: plugin0({})
       },
 {
-        location: "/Users/andresdhn/Documents/work/portfolio/node_modules/react-static-plugin-sitemap/dist",
+        location: "/Users/andres/Documents/Other/my-static-site/node_modules/react-static-plugin-sitemap/dist",
         plugins: [],
         hooks: {}
       },
 {
-        location: "/Users/andresdhn/Documents/work/portfolio/node_modules/react-static-plugin-sass",
+        location: "/Users/andres/Documents/Other/my-static-site/node_modules/react-static-plugin-sass",
         plugins: [],
         hooks: {}
       },
 {
-        location: "/Users/andresdhn/Documents/work/portfolio",
+        location: "/Users/andres/Documents/Other/my-static-site",
         plugins: [],
         hooks: {}
       }]

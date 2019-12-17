@@ -1,5 +1,5 @@
 import React from 'react'
-import './Wrapper.scss'
+import '../styles/components/Wrapper.scss'
 //
 
 //TODO: scroll top on route change

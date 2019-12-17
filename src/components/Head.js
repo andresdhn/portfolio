@@ -1,7 +1,6 @@
 import React from 'react'
 import { Head } from 'react-static'
 //
-
 export default ({ title, date, path, image, children, description }) => {
     return (
         <Head>

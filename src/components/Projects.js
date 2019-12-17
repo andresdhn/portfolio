@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'components/Router'
 import { useRouteData } from 'react-static'
-import './Projects.scss'
+import '../styles/components/Projects.scss'
 //
 export default props => {
     const { posts } = useRouteData()

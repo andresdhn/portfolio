@@ -1,8 +1,8 @@
 import React from 'react'
 import { Head } from 'react-static'
-import Page from 'components/Page/Page'
-import Projects from 'components/Projects/Projects'
-
+import Page from 'components/Page'
+import Projects from 'components/Projects'
+//
 export default () => {
     return (
         <Page>

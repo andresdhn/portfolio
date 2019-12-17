@@ -1,8 +1,7 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade'
+import Page from 'components/Page'
 //
-import Page from 'components/Page/Page'
-
 export default () => (
     <Page>
         <div className="container">
