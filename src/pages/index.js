@@ -12,6 +12,8 @@ export default () => (
                         <h2>Front-end Developer</h2>
                     </div>
                 </Fade>
+
+                {/* TODO: Move Skill list to here, make scrollable naviagtion */}
             </section>
         </div>
     </Page>
