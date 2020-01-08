@@ -119,12 +119,12 @@ export default {
                             content="width=device-width, initial-scale=1"
                         />
                         <link
-                            href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto&display=swap"
+                            href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
                             rel="preload"
                             as="style"
                         />
                         <link
-                            href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto&display=swap"
+                            href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
                             rel="stylesheet"
                         />
 
