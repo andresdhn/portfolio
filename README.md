@@ -1,5 +1,5 @@
 # Portfolio
-My selection of Previous Frontend Projects. 
+Selection of previous Frontend Projects. 
 
 # 2021
 - [rinvoq.co.nz](https://rinvoq.co.nz/)
